@@ -5,4 +5,5 @@ const tabs = [
   GButton(icon: Icons.home, text: 'Home'),
   GButton(icon: Icons.person, text: 'Persone'),
   GButton(icon: Icons.settings, text: 'Settings'),
+  GButton(icon: Icons.favorite, text: 'favorite'),
 ];
