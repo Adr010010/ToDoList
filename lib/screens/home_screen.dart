@@ -7,7 +7,22 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('To Do List'),
+        title: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text(
+            'To-Do List',
+            style: TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 28,
+                color: Color.fromARGB(255, 0, 0, 0),
+                shadows: [
+                  Shadow(
+                      color: Colors.black.withOpacity(0.1),
+                      offset: Offset(0, 3),
+                      blurRadius: 20)
+                ]),
+          ),
+        ),
       ),
     );
   }
